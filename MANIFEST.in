@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sn_customization *.css
+recursive-include sn_customization *.csv
+recursive-include sn_customization *.html
+recursive-include sn_customization *.ico
+recursive-include sn_customization *.js
+recursive-include sn_customization *.json
+recursive-include sn_customization *.md
+recursive-include sn_customization *.png
+recursive-include sn_customization *.py
+recursive-include sn_customization *.svg
+recursive-include sn_customization *.txt
+recursive-exclude sn_customization *.pyc
