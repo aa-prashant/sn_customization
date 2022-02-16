@@ -57,7 +57,7 @@ app_license = "MIT"
 # ------------
 
 # before_install = "sn_customization.install.before_install"
-# after_install = "sn_customization.install.after_install"
+after_install = "sn_customization.api.update_sn"
 
 # Desk Notifications
 # ------------------
